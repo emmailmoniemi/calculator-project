@@ -23,13 +23,6 @@ body {
     min-width: 400px;
 }
 
-.infobox-container img {
-    width: 100%;
-    height: auto;
-    border-radius: 35px;
-    box-shadow: 2px 3px 4px #000000;
-    border: 2px solid #1F2937;
-}
 
 a {
     /* this removes the line under our links */
@@ -38,28 +31,8 @@ a {
     font-size: 18px;
 }
 
-ul {
-    list-style-type: none;
-    display: flex;
-    padding: 0;
-    margin: 0;
-    justify-content: space-between;
-    gap: 26px;
-}
-
 button {
     cursor: pointer;
-}
-
-.signup {
-
-    padding: 8px 16px;
-    border-radius: 8px;
-    background: rgb(111, 126, 169);
-    border: 1px solid rgb(111, 126, 169);
-    ;
-    color: white;
-    max-width: 180px;
 }
 
 .container {
@@ -158,8 +131,12 @@ button {
     
 }
 
+.digit {
+    background-color: rgb(145, 145, 147);
+}
+
 .display {
-    background-color: rgb(191, 191, 227);
+    background-image: linear-gradient(to top, rgb(200, 200, 231), rgb(160, 160, 189));
     font-weight: 0;
     font-size: 48px;
     font-family: 'Times New Roman', Times, serif;
@@ -181,37 +158,6 @@ button {
 .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
-}
-
-
-.signup-container {
-    padding: 90px 50px;
-
-    
-}
-
-.signup-box {
-    background: rgb(214, 219, 235);
-    border-radius: 10px;
-    box-shadow: 2px 4px 16px rgba(0, 0, 0, .2);
-    margin: auto;
-    padding: 36px 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 15px;
-    text-align: left;
-}
-
-.signup-main-text {
-
-    font-size: 24px;
-    font-weight: 800;
-}
-
-.signup-secondary-text {
-
-    font-size: 16px;
 }
 
 .footer {
